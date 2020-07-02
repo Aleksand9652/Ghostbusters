@@ -1,0 +1,622 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 104px;
+	border-bottom: 1px solid #D4D4D4;
+
+}
+.logo {
+	margin-right: 34px;
+	margin-left: 34px;
+		}
+
+	.search-input {
+		background-image: url(img/search-icon.svg);
+		background-repeat: no-repeat;
+		color: #A5A5A5;
+		border: none;
+		font-family: Roboto;
+		font-size: 18px;
+		padding-left: 38px;
+		background-position: center left;
+		margin-left: 34px;
+		
+	}
+	.line {
+		height: 100%;
+		width: 1px;
+		background-color: #D4D4D4;
+		}
+	.button-group {
+		display: flex;
+		justify-content: center;
+		height: 100%;
+	}
+	.button {
+		border: none;
+		align-items: center;
+		cursor: pointer;
+
+	}
+	.button-right {
+		background: #5671F6;
+		color: white;
+		padding: 41px 50px 42px 50px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px; 
+	}
+	.button-left {
+		background: white;
+		color: #5671F6;
+		padding: 41px 34px 42px 34px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		border-left: 1px solid #D4D4D4; 	
+	}
+	.navigation {
+		margin-left: auto;
+		margin-right: 44px;
+	}
+	.navigation-link {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		color: #363636;
+		text-decoration:none;
+		margin-left: 18px;
+	}
+	.navigation-link:hover {
+		color:#2f32e3;
+		transition: .2s;
+	}
+	.hero {
+		display: flex;
+		
+	}
+	.center {
+		border-bottom: 1px solid #D4D4D4;
+	}
+	.container {
+		max-width: 1130px;
+		margin:auto;
+	}
+	.photo-blog {
+		max-height:  464px;
+		margin-top: 80px;
+		width: 358px;
+	}
+
+	.play-button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 358px;
+		height: 75px;	
+		border: 1px solid #D4D4D4;	
+		margin-bottom: 80px;
+		}
+		.play-url {
+			font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: #5671F6;
+		margin-left: 14px;
+		text-decoration: none;
+		}
+		.play-img {
+			cursor: pointer;
+		}
+		.play-url:hover {
+			color: #2A3B93;
+		}
+		.treiler-text {
+			margin-left: 60px;
+		}
+		.treiler_blog {
+			height: auto;
+		}
+		.trailer-name {
+			margin-top: 80px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 36px;
+			line-height: 42px;
+			}
+		.afterlife {
+			margin-top: 16px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			color: #A5A5A5;
+		}
+		.description {
+			margin-top: 32px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 150%;
+			color: #000000;
+		}
+		.about-film {
+			margin-top: 50px;
+			display: flex;
+		}
+		.about-text {
+			display: block;
+			margin-right: 40px;
+			margin-bottom: 16px;
+		}
+		.about-text-bold {
+			display: inline-block;
+			width: 100px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: #363636;
+		}
+		.about-text-regular {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 19px;
+			color: #363636;
+		}
+		
+		.rating {
+			margin-top: 10px;
+			display: flex;
+		}
+		.rating-procent {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 28px;
+			line-height: 33px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			color: #5671F6;
+			border: 1px solid #5671F6;
+			border-radius: 10px;
+			width: 100px;
+			height: 100px;
+			padding:34px 24px 33px 23px;
+		}
+		.rating-text {
+			margin-left: 29px;
+
+		}
+		.text-reting {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 19px;
+			display: block;
+			margin-bottom: 7px;
+		}
+		.rating-title {
+			margin-bottom: 12px;
+			margin-top: 11px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 21px;
+		}
+		.rating-active-title {
+			margin-top: 10px;
+			margin-left: 10px;
+			display: block;
+
+		}
+		.rating-blog {
+		margin-left: 70px;
+		margin-bottom: 10px;
+		}
+		.rating-active {
+			display: flex;
+			flex-direction: row-reverse;
+					}
+		.rating_item {
+			color: #dcdcdc;
+			font-size: 30px;
+			cursor: pointer;
+			transition: .3s;
+			align-self:flex-end;
+
+
+		}
+		.rating_item:hover ~ .rating_item,
+		.rating_item:hover {
+			color: orange;
+		}
+
+
+		/*------/HERO-------*/
+		/*CAST*/
+		.cast {
+			padding-top: 70px;
+			padding-bottom: 100px;
+		}
+		.tabs {
+			display: flex;
+			align-items: center;
+			margin-bottom: 60px;
+		}
+		.section-title {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 24px;
+			line-height: 28px;
+			color: #A5A5A5;
+			margin-right: 30px;
+		}
+		.section-title.active {
+			color: #363636;
+			font-weight: 900;
+		}
+
+
+											/*akter*/
+		 .card-image {
+		 	width: 100px;
+		 	height: 100px;
+		 	object-fit: cover;
+		 	border-radius: 50%;
+		 	margin-right: 20px;
+		 }
+		 .card {
+		 	display: flex;
+		 	align-items: center;
+		 	flex-basis: 25%;
+		 	margin-bottom: 35px;
+		 }
+		 .name-akter {
+		 	margin-top: 0;
+		 	font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 19px;
+			color: #5671F6;
+			margin-bottom: 6px;
+		 }
+		 .en-name {
+		 	color: #A5A5A5;
+		 	font-weight: normal;
+		 	font-size: 16px;
+			line-height: 19px;
+		 }
+		 .tabs-content {
+		 	display: flex;
+		 	flex-wrap: wrap;
+		 	align-items: center;
+		 }
+
+
+			/*news*/
+
+		.news {
+			background-color: #F3F3F3;
+		}
+		.news-cards {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding-bottom: 60px;
+		}
+		.news-card {
+			background-color: white;
+			flex-basis: 22%;
+			border-radius: 5px;
+			min-height: 160px;
+					}
+
+		.section-title {
+			padding-bottom: 65px;
+			
+		}
+		.section-titl {
+			padding-top: 70px;
+			padding-bottom: 65px;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 24px;
+			line-height: 28px;
+			color: #000000;
+		}
+
+	.date {
+		display: block;
+		padding-top: 30px;
+		padding-bottom: 14px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-left: 30px;
+	}
+	.news-title {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 14px;
+		line-height: 16px;
+		margin:0 30px;
+	}
+	.mobile-buttons {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		margin-right: 15px;
+
+	}
+	.menu-line {
+			display: block;
+			width: 18px;
+			height: 2px;
+			background-color: #363636;
+			margin-bottom: 4px;
+			margin-top: 4px;
+			border-radius: 40px;
+		}
+		.m-menu-button {
+			display: none;
+			border: none;
+			background-color: white;
+			padding:5px;
+			cursor: pointer;
+			margin-left: 25px;
+		}
+		.mobile-search-button {
+			display: none;
+			align-items: center;
+			border: none;
+			background-color: white;
+			padding: 5px;
+			width: 20px;	
+			height: 20px;
+
+		}
+		.m-menu-button-active .menu-line:nth-child(2) {
+		display: none;
+		}
+		.m-menu-button-active .menu-line:first-child {
+		transform: rotate(45deg) translateX(4px);
+
+		}
+		.m-menu-button-active .menu-line:last-child {
+		transform: rotate(-45deg) translateX(5px);
+		
+		}
+		.m-menu-button-active .menu-line {
+			width: 25px;
+			height: 3px;
+		}
+
+
+	@media (max-width: 1200px) {
+		.container {
+			max-width: 960px;
+		}
+		.logo {
+			margin:0 20px;
+		}
+		.card-image {
+			width: 70px;
+			height: 70px;
+		}
+		.navigation-link {
+			margin-left: 10px;
+			font-size: 16px;
+		}
+		.search-input {
+			margin-left: 15px;
+		}
+		.navigation {
+			margin-right: 20px;
+		}
+		.tabs {
+			margin-bottom: 0;
+		}
+		.cast {
+			padding-top: 25px;
+			padding-bottom: 35px;
+		}
+		.button-left {
+			padding-left: 19px;
+			padding-right: 19px;
+		}
+		.section-titl {
+			padding-top: 30px;
+			padding-bottom: 25px;
+		}
+		.rating-active {
+			margin-bottom: 20px;
+		}
+	}
+
+	@media (max-width: 991px) {
+		.container {
+			max-width: 760px;
+		}
+		.card {
+			flex-basis: 50%;
+		}
+		.section-title {
+			padding-bottom: 30px;
+		}
+		.trailer-name {
+			font-size: 24px;
+			line-height: 25px;
+		}
+		.description {
+			margin-top: 20px;
+		}
+		.about-film {
+    		margin-top: 20px;
+    	}
+    	.rating {
+    margin-top: 25px;
+ 		}
+ 		.about-text-bold {
+    display: block;
+ 		}
+ 		.news-card {
+ 			flex-basis: 49%;
+ 			margin-bottom: 15px;
+ 		}
+ 		.navigation {
+ 			display: none;
+ 		}
+ 		.header {
+ 			height: 84px;
+ 		}
+ 		.search-input {
+ 			margin-right: auto;
+ 		}
+ 		.button {
+ 			display: flex;
+ 			align-items: center;
+ 		}
+
+	}
+
+		@media (max-width: 768px) {
+		.container {
+			max-width: 560px;
+		}
+		.hero {
+			flex-wrap: wrap;
+		}
+		.trailer-name {
+			margin-top: 0;
+		}
+		.treiler-text {
+			margin-left: 0;
+		}
+		.play-button {
+			margin-bottom: 30px;
+		}
+		.rating {
+			margin-bottom: 15px;
+		}
+		.cast {
+			padding-bottom: 10px;
+		}
+
+	}
+
+	@media (max-width: 655px) {
+		.hero {
+			text-align: center;
+		}
+		.treiler_blog,
+		.about-film,
+		.rating {
+			margin-left: 20%;
+		}
+
+		.container {
+			width: 95%;
+		}
+		.photo-img {
+			width: 100%;
+		}
+		.button {
+			display: none;
+		}
+		.search-input {
+			display: none;
+		}
+
+		.line {
+			display: none;
+		}
+		.header {
+			padding-right: 30px;
+		}
+		.mobile-buttons {
+			display: flex;
+		}
+		.m-menu-button {
+			display: block;
+		}
+		.mobile-search-button {
+			display: flex;
+		}
+
+	}
+	@media (max-width: 576px) {
+		.trailer-name {
+			font-weight: 900;
+			font-size: 20px;
+			line-height: 23px;
+		}
+		.treiler_blog {
+			width: 100%;
+		}
+		.afterlife {
+			font-size: 14px;
+			line-height: 16px;
+		}
+		.description {
+			font-size: 14px;
+			line-height: 150%;
+		}
+		.about-film {
+			margin-top: 40px;
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+		.about-text-bold {
+			display: inline-block;
+		}
+		.rating {
+			margin-bottom: 70px;
+		}
+		.cast {
+			padding-top: 70px;
+		}
+		.tabs {
+			margin-bottom: 15px;
+		}
+		.card {
+			flex-basis: 100%;
+		}
+
+
+	}
+	@media (max-width: 460px) {
+		.treiler_blog {
+			margin-left: 0;	
+		}
+
+	}
